@@ -101,7 +101,7 @@ namespace IPAddressBoxControl
         private void IPTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true; //禁止输入
-            if (IPTextBox.SelectionStart == 0)
+            if (IPTextBox.SelectionStart == 0 && IPTextBox.SelectionLength!=15)
                 IPTextBox.SelectionStart = 3;
 
 
@@ -119,7 +119,7 @@ namespace IPAddressBoxControl
             }
             else if (e.KeyChar == (char)Keys.Back)
             {
-                if (IPTextBox.SelectionStart == 0 && IPTextBox.SelectionLength == IPTextBox.Text.Length)
+                if (IPTextBox.SelectionLength == 15)
                 {
                     // 文本框全选了  
                     IPTextBox.Text = "000.000.000.000";
@@ -127,7 +127,7 @@ namespace IPAddressBoxControl
                     IPTextBox.SelectionLength = 0;
                     return;
                 }
-
+                
 
                 _IPdata[_Ipos - 1] = '0' + _IPdata[_Ipos - 1].Substring(0, _IPdata[_Ipos - 1].Length - 1);
 
