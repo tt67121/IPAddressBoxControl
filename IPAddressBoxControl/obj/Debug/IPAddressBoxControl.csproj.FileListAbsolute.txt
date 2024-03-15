@@ -1,0 +1,8 @@
+C:\Users\28273\Desktop\IPAddressBoxControl\bin\Debug\IPAddressBoxControl.dll
+C:\Users\28273\Desktop\IPAddressBoxControl\bin\Debug\IPAddressBoxControl.pdb
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.csproj.AssemblyReference.cache
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.IPAddressBoxControl.resources
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.csproj.GenerateResource.cache
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.csproj.CoreCompileInputs.cache
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.dll
+C:\Users\28273\Desktop\IPAddressBoxControl\obj\Debug\IPAddressBoxControl.pdb
